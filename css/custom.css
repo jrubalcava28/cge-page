@@ -4,9 +4,14 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.collapse {
+	display: block;
+}
+
 body {
 	color: #5a5a5a;
 	font-family: 'Lato', sans-serif;
+
 }
 h1, h2, h3, h4, h5 {
 	font-family: 'Montserrat', sans-serif;
@@ -45,10 +50,13 @@ h1, h2, h3, h4, h5 {
 	position: relative
 }
 section {
-	float: right;
+	float: left;
+	position: relative;
 	width: 100%;
-	padding: 80px 0;
+	padding-top: 80px;
+  padding-bottom: 30px;
 	margin:0px;
+	display: block;
 
 }
 
@@ -60,10 +68,44 @@ section-red {
 
 }
 
+section-1 {
+	float: right;
+	width: 100%auto;
+	padding-top:30px;
+	padding-bottom: 50px;
+	margin:0px;
+
+}
+
+.sec {
+	float: right;
+	width: 100%auto;
+	padding-top:60px;
+	margin:0px;
+
+}
+
+.sec2 {
+	float: right;
+	width: 100%auto;
+	padding-top:120px;
+	margin:0px;
+
+}
+
+.sec3 {
+	float: right;
+	width: 100%auto;
+	padding-top:40px;
+	margin:0px;
+
+}
+
 .section-no{
 
 	float: right;
-	width: 100%auto;
+	width: 100%;
+	weight: 100%;
 	padding:0px;
 	margin:0px;
 
@@ -242,6 +284,15 @@ section-red {
 }
 /* SERVICE SECTION
 -------------------------------------------------- */
+.service-sec {
+	margin-top: 0px;
+    text-align: center;
+}
+
+.service-block {
+	margin-top: 30px;
+    text-align: center;
+}
 
 .service-sec .heading {
 	float: left;
@@ -503,7 +554,9 @@ section-red {
 	min-height: 50px;
 	float: left;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 0px;
+	padding-right: 0px;
+  padding-left: 0px;
 }
 .iso-box > a {
 	display: block;
@@ -810,6 +863,9 @@ footer .copy-footer {
 .featurette-heading {
 	margin-top: 7rem;
 }
+.text-CGE {
+	padding-top:: 70px;
+}
 }
  @media (max-width: 767px) {
 .carousel-caption {
@@ -823,7 +879,6 @@ footer .copy-footer {
 }
 .top-bar .navbar-nav {
 	width: 100%;
-	background: #0C242E;
 	margin-top: 20px;
 }
 .collapsing {
