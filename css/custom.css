@@ -4,7 +4,11 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 .background-image {
-	background-size: cover !important;                      /* <------ */
+	background-position-y: 130px !important;
+	width: 100%;
+	margin-top: -130px;
+  	padding-top: 130px;
+	background-size: auto;                      /* <------ */
 	background-repeat:   no-repeat;
 	background-position: center center;
 }
