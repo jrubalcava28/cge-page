@@ -4,6 +4,9 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 .background-image {
+	width: 100%;
+	margin-top: -130px;
+  	padding-top: 130px;
 	background-size: cover !important;                      /* <------ */
 	background-repeat:   no-repeat;
 	background-position: center center;
