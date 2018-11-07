@@ -169,7 +169,7 @@ section-1 {
 	height: 100%;
 	position: fixed;
 	width: 100%;
-	/* z-index: 1200; */
+	z-index: 1200;
 }
 .loader-bg {
 	background: #0297FF;
